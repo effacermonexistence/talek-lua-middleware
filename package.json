@@ -1,0 +1,19 @@
+{
+  "name": "talek-lua-middleware",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc -p tsconfig.json",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "zod": "^3.23.8",
+    "undici": "^6.19.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
